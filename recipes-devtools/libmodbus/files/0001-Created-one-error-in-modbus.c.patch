@@ -1,0 +1,25 @@
+From 07437dd42fffa04dac7fdf9702579746f4ad5abf Mon Sep 17 00:00:00 2001
+From: Anks <anksprog@gmail.com>
+Date: Wed, 2 Oct 2024 14:54:17 +0530
+Subject: [PATCH] Created one error in modbus.c
+
+---
+ src/modbus.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/modbus.c b/src/modbus.c
+index f1da5c6..3bc6ca8 100644
+--- a/src/modbus.c
++++ b/src/modbus.c
+@@ -21,7 +21,7 @@
+ #include <config.h>
+ 
+ #include "modbus.h"
+-#include "modbus-private.h"
++include "modbus-private.h"
+ 
+ /* Internal use */
+ #define MSG_LENGTH_UNDEFINED -1
+-- 
+2.25.1
+
